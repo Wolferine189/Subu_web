@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* script style csss start */
+    .glow{
+        display: block;
+    }
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #6499E9;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 1000;
+
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.options{
+    display: flex;
+}
+.menu{
+    margin: 10px;
+    padding: 8px;
+    display: none;
+    color: white;
+    font-size: 19px;
+}
+.xmark{
+    margin-left: 5px;
+
+}
+
+.options ul {
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.options ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+.options ul li a {
+    font-family: 'Share Tech', sans-serif;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+
+}
+.options ul li a:hover{
+    color: rgb(194, 192, 192);
+
+}
+
+  /* home css start */
+.home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+ 
+}
+
+.homeImage img {
+    width: 300px;
+    height: auto;
+    transform: translate(240%, 50%);
+    border-radius: 19px;
+    border: 12px solid #6499E9;
+
+}
+
+.textofhome {
+    transform: translate(50%, 250%);
+    color: black;
+
+    position: absolute;
+    width: auto;
+    height: auto;
+    font-family: 'Share Tech', sans-serif;
+    z-index: 100;
+}
+
+.textofhome h4 {
+    font-size: 40px;
+    color: black;
+
+}
+
+h4 span {
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #6499E9;
+}
+
+
+
+/* section Journey start  */
+.Journey {
+    display: block;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.headab h1 {
+    font: 100;
+    font-size: 15px;
+    font-family: 'Share Tech', sans-serif;
+    color: #6499E9;
+
+}
+
+.detailJourney {
+    display: flex;
+
+}
+
+.texting {
+    width: 500px;
+    height: auto;
+    background-color: #6499E9;
+    border-radius: 15px;
+    padding: 15px;
+    transform: translate(40%, 25%);
+}
+
+.texting p1 {
+    margin-top: 20px;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.texting p {
+    font-size: 14px;
+    font-family: 'Share Tech', sans-serif;
+    color: white;
+    padding: 6px;
+
+    letter-spacing: 1px;
+}
+
+.picture {
+    float: right;
+}
+
+.picture img {
+    width: 230px;
+    height: auto;
+    transform: translate(160%, 25%);
+
+
+}
+
+
+
+
+/* Academics starts css */
+
+.Academics {
+    display: block;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.detailstudy {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+
+}
+
+.textstudy {
+    font-family: 'Share Tech', sans-serif;
+    color: #fff;
+    background-color: #6499E9;
+    padding: 15px;
+    margin-left: 30px;
+}
+
+.picstudy img {
+    width: 400px;
+    height: auto;
+}
+
+.col {
+    margin: 10px;
+}
+
+
+/* Section skills Css starts  */
+
+.skills {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    padding: 80px;
+
+
+
+}
+
+.headab {
+    text-align: center;
+    margin: 10px;
+}
+
+.skillbox {
+    display: grid;
+    background-color: #6499E9;
+    width: 83%;
+    height: auto;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 1px;
+    column-gap: 20px;
+
+
+
+}
+
+.colmn {
+    background-color: #fff;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    font-family: "share tech", sans-serif;
+    border-radius: 15px;
+}
+
+.colmn h1 {
+    letter-spacing: 2px;
+}
+
+.col_pic img {
+    width: 150px;
+    height: auto;
+}
+
+/* contact css starts  */
+
+
+.Contact {
+    width: 100%;
+    height: 100vh;
+    font-family: "share tech", sans-serif;
+
+
+
+}
+
+.contact-contain img {
+    width: 500px;
+    height: auto;
+
+}
+
+.contact-contain {
+    justify-content: space-around;
+    display: flex;
+    margin: 20px;
+}
+
+.contact_ctn {
+    background-color: #6499E9;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+}
+.contact_ctn h3{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+.socio {
+    display: flex;
+
+}
+
+.socio a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.socio p {
+    color: white;
+}

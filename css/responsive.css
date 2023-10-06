@@ -1,0 +1,177 @@
+@media (max-width:600px) {
+
+
+    /* Navbar  */
+     .navbar{
+       height:auto;
+        width: 100%;
+    }
+    .menu{
+      display: flex;
+    }
+    .xmark{
+      display: none;
+    }
+   
+    .options ul{
+        display: none;
+
+    }
+    /* Home section */
+  .home{
+    display: block;
+
+    
+  }
+  .homeImage img {
+    width: 300px;
+    height: auto;
+    transform: translate(20%, 50%);
+    border-radius: 19px;
+    border: 12px solid #6499E9;
+
+  }
+  .textofhome {
+        transform: translate(20%, 600%);
+        color: black;
+    
+        
+        width: auto;
+        height: auto;
+        font-family: 'Share Tech', sans-serif;
+        z-index: 100;
+  }
+  .textofhome h4 {
+    font-size: 18px;
+    color: black;
+
+  }
+
+  h4 span {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #6499E9;
+  }
+
+
+  /* Journey Css starts  */
+  .detailJourney {
+    display: block;
+    margin: 0;
+    left: 0;
+
+
+  }
+  .texting {
+    width: 100%;
+    height: auto;
+    background-color: #6499E9;
+    
+    padding: 15px;
+    transform: translate(1%,5%);
+    text-align: left;
+    letter-spacing: 2px;
+  }
+
+  .picture{
+    display: none;
+  }
+
+
+
+    /* .academics css Starts  */
+
+    .picstudy img {
+      width: 60%;
+      height: auto;
+    }
+
+
+    .detailstudy{
+      display: block;
+    }
+
+ /* .skills css starts */
+
+ .skillbox {
+  display: grid;
+  
+  width: 83%;
+  height: auto;
+  margin: auto;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 1px;
+  column-gap: 20px;}
+
+  /* .contact css starts  */
+  .contact-contain {
+    justify-content: space-around;
+    display: block;
+    margin: 20px;
+  }
+  .pic-contact img{
+    width: 50%;
+  }
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
